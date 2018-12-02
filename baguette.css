@@ -88,14 +88,15 @@
 }
 
 .left-div img {
-  background-color: #73ABAE;
+  background-color: #45B738;
   padding-bottom: 10px;
   padding-right: 10px;
   border-radius: 30px;
+  max-height: 300px;
 }
 
 .key-items a {
-  color: #23CB83;
+  color:#45B738;
 }
 
 .center-photo {
@@ -134,4 +135,17 @@
 
 .card-group {
   margin-bottom: 20px;
+}
+
+.bg-text1 {
+  text-indent: 0em;
+  max-width: 950px;
+  text-align: left;
+  padding: 3px 3px 15px 70px;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 80px;
+  color: red;
 }

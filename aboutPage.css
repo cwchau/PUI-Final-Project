@@ -37,6 +37,13 @@
   vertical-align: top;
 }
 
+.left-div img {
+  background-color: #A090C4;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 30px;
+}
+
 .right-div {
   display: inline-block;
   max-width: 500px;;
@@ -59,4 +66,8 @@
 
 .test-list {
   padding: 0px;
+}
+
+.key-items a {
+  color: #A090C4;
 }

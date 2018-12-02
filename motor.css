@@ -24,7 +24,7 @@
 
 .left-div {
   display: inline-block;
-  max-width: 500px;
+  max-width: 400px;
   text-align: left;
   margin: 15px;
   vertical-align: top;
@@ -64,7 +64,7 @@
 }
 
 .right-div2 img {
-  background-color: #73ABAE;
+  background-color: #CB5C5C;
   padding-bottom: 10px;
   padding-right: 10px;
   border-radius: 30px;
@@ -88,14 +88,14 @@
 }
 
 .left-div img {
-  background-color: #73ABAE;
+  background-color: #CB5C5C;
   padding-bottom: 10px;
   padding-right: 10px;
   border-radius: 30px;
 }
 
 .key-items a {
-  color: #23CB83;
+  color: #CB5C5C;
 }
 
 .center-photo {
@@ -134,4 +134,42 @@
 
 .card-group {
   margin-bottom: 20px;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-slide {
+  max-width: 40%;
+}
+
+.bg-text1 {
+  text-indent: 0em;
+  max-width: 950px;
+  text-align: left;
+  padding: 3px 3px 15px 70px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red no-repeat center center;
+    background-image: initial;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: red;
+    background-size: 100% 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
 }

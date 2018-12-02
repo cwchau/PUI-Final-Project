@@ -36,7 +36,7 @@
     <title>Chatbot Project</title>
   </head>
 
-  <body>
+  <body class="animated fadeIn">
     <header><div id="moon-mouse"></div></header>
     <div class="animated slideInDown"><h1 id="my-name">Connie Chau</h1></div>
     <div id="navbar-Animate">
@@ -79,8 +79,8 @@
       <ul class="key-items">
         <li>Game design</li>
         <li>Programming</li>
-        <li>Body joint tracking</li>
-        <li>Interactive modes</li>
+        <li>Interactivity</li>
+        <li>User testing</li>
       </ul><br>
     </div>
       <div class="right-div right-text">
@@ -89,8 +89,8 @@
           <li>Python</li>
           <li>Microsoft Visual Studio</li>
           <li>Microsoft Kinect</li>
-          <li><a href="https://github.com/attwad/python-osc">pythonOSC</a>, pyKinect, pygame</li>
-          <li><a href="https://cycling74.com/">Max, Cycling '74</a></li>
+          <li><a href="https://github.com/attwad/python-osc" target="_blank">pythonOSC</a>, pyKinect, pygame</li>
+          <li><a href="https://cycling74.com/" target="_blank">Max, Cycling '74</a></li>
         </ul><br>
       </div>
 
@@ -98,7 +98,7 @@
     <div class="bg-text mx-auto"><p><b>Background</b><br>
       I created "Body Music Generator" for my final term project for the introductory programming course,
       Fundamentals of Programming and Computer Science (15-112) at Carnegie Mellon University.<br><br>
-      As a music lover, I wanted to create a project that allows people to <b>explore</b> and have <b>fun</b>.
+      As a music lover, I wanted to create a project that <b>allows people to explore</b> and have <b>fun</b>.
       I got inspiration from <em>Dalcroze Eurythmics</em>, a development approach to teaching music through
       your body and the <b>natural connection</b> people have to music and sound.<br><br>
       The "Body Music Generator" is very close to my heart as it marked the <b>first time</b> I created
@@ -111,7 +111,6 @@
     </blockquote>
 
     <div class="bg-text mx-auto"><p><b>Project Video</b><br>
-    <div class="module-1 mx-auto">
       <div class="embed-responsive embed-responsive-16by9">
         <iframe width="901" height="507" src="https://www.youtube.com/embed/-hqKDKFuSgs"
           frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -130,17 +129,60 @@
           <li>'Game Mode' including minigames such as note identifier and song-player</li>
           <li>'Freestyle Mode' including sound manipulation</li>
           <li>2-player mode</li>
-        </ul><br>
+        </ul>
+    </div>
+
+    <!--</div> -->
+
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="images/4body/volume.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Volume</h5>
+          <p class="card-text">Volume is measured by the vertical distance between the user's hands.
+          The closer their hands are together, the quieter the sound which mirrors real life where bringing
+          your limbs and self tighter together makes you feel "small". Conversely, stretching out your arms vertically
+          makes you seem taller and intimidating, like a loud sound.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/4body/pitch.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pitch</h5>
+          <p class="card-text">Pitch is controlled by the horizontal distance between the user's hands.
+          The closer they are, the closer the pitch is to the original sound. Stretching your arms out wide
+          increasingly distorts the sound.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-text mx-auto"><p><b>Lessons Learned</b><br>
+      This project was a lot of fun to create. It took some time to program the core functionality
+      because I wanted to include lots of features. One <b>important topic</b> that I caught a glimpse
+      of in this assignment, was the importance of <b>user testing</b>.<br><br>
+      While testing the 'Freestyle Mode' application with a few friends, they were <b>unsure if the system
+      was working</b> or not. To address this issue, I created the two key visuals indicated in the images above.<br><br>
+      For volume, there is a red bar on the right that adjust its height according to the volume. For pitch,
+      there is a colored bar at the top that shifts from reddish-pink to a purple-blue to signify the pitch shift.<br><br>
+      Without the <b>feedback from users</b>, I would have missed creating visuals, leaving my users confused and uncertain.
+      </p>
     </div>
 
   </div>
 
-  <!-- Scroll to top feature -->
-  <div id="stop" class="scrollTop">
-   <span><a href="#"><img class="float-right" src="images/4body/scroll.png"></a></span>
-  </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small" style="background-color:#A090C4">
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Contact me at [ cchau1@andrew.edu ].</a>
+    </div>
 
+  </footer>
+
+    <!-- Scroll to top feature -->
+    <div id="stop" class="scrollTop">
+     <span><a href=""><img class="float-right" src="images/4body/scroll.png"></a></span>
+   </div>
 
 
 
