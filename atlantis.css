@@ -104,7 +104,7 @@
   font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .left-div, .right-div
     {
        max-width: 100%;
@@ -124,6 +124,9 @@
   .card-text {
     max-width: 100%;
   }
+  .card-text1 {
+    max-width: 100%;
+  }
 }
 
 
@@ -140,6 +143,7 @@
 .card-text {
   font-size: 12px;
   width: 400px;
+  text-align: center;
 }
 
 .card-img-top {
@@ -155,9 +159,8 @@
   width: 800px;
 }
 
-.card-title {
-  padding-left: 100px;
-  margin-bottom: 0px;
+.card-text1 {
+  width: 300px;
 }
 
 /* CSS scrolling code adapted from https://codepen.io/karencho/pen/KIgur */
@@ -170,4 +173,11 @@
   opacity: 0;
   transition: all 0.4s ease-in-out 0s;
   background-color: none;
+}
+
+.bg-text1 {
+  text-indent: 0em;
+  max-width: 950px;
+  text-align: left;
+  padding: 3px 3px 15px 70px;
 }
