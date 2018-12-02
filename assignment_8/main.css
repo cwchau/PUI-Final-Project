@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Name for banner and accessing webkit-animation for continuous color-changing
+of my name */
+#my-name {
+  text-align: left;
+  background-color: #4D4464;
+  margin: 0px;
+  padding-left: 50px;
+  color: black;
+  font-size: 50px;
+  font-weight: 400;
+  -webkit-animation: colorchange 80s infinite alternate;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-color: #848484;
+  margin: 15px;
+  background-color: white;
+}
+/* Setting the colors for the color shift */
+@-webkit-keyframes colorchange {
+  0% {
+    color: white;
+  }
+  10% {
+    color: #D6A9E9;
+  }
+  20% {
+    color: #94EFDC;
+  }
+  30% {
+    color: #F59C65;
+  }
+  40% {
+    color: #A2D5F5;
+  }
+  50% {
+    color: #B5CCE2;
+  }
+  60% {
+    color: #ADF3A4;
+  }
+  70% {
+    color: #73A1BE;
+  }
+  80% {
+    color: #F3DF8F;
+  }
+  90% {
+    color: #98CBEA;
+  }
+  100% {
+    color: #EA98CB;
+  }
+}
+
+/* Contains the p5.js canvas function */
+#moon-mouse {
+  background: #4D4464;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Spacing out items in the nav-bar*/
+.navbar-nav > li {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#header {
+  animation-duration: 4s;
+}
+
+#navbar-Animate {
+  animation-duration: 3s;
+}
+
+
+ul.navbar-nav a:hover {
+  color: #E7F7FC!important;
+  text-decoration: underline;
+ }
+
+ul.navbar-nav .nav-link {
+  color:white!important;
+}
+
+
+/* CSS scrolling code adapted from https://codepen.io/karencho/pen/KIgur */
+.scrollTop {
+  position: fixed;
+  right: 5%;
+  bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  background-color: none;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+  padding: 50px;
+}
+
+.scrollTop img {
+  max-width: 5%;
+  max-height: 5%;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+/* There was an extra canvas that was being drawn for some inexplicable reason
+so I figred out that I could actually just set it to "display:none" to hide it! */

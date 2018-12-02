@@ -1,0 +1,62 @@
+.page-title {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+#section-2 {
+  text-align: right;
+  padding-top: 30px;
+
+}
+
+#section-1 {
+    height: 300px;
+    width: 100px;
+}
+
+#summary-text {
+  font-size: 15px;
+}
+
+#about-text-box {
+}
+
+.container
+{
+  text-align: center;
+  padding: 15px;
+}
+
+.left-div {
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.right-div {
+  display: inline-block;
+  max-width: 500px;;
+  text-align: left;
+  padding: 20px;
+  margin: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
+
+.item {
+  font-size: 9px;
+}
+
+.test-list {
+  padding: 0px;
+}

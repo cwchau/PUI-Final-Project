@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- p5.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <!-- scrollMagic CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="mainSketch2.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- My own files -->
+    <script src="scrollTop.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="atlantis.css">
+
+    <title>Data-Driven Display Project</title>
+  </head>
+
+  <body>
+    <header><div id="moon-mouse"></div></header>
+    <div class="animated slideInDown"><h1 id="my-name">Connie Chau</h1></div>
+    <div id="navbar-Animate">
+      <nav class="animated fadeIn navbar navbar-expand-lg navbar-light" style="background-color:#A090C4;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="homePage.html">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutPage.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/file/d/1GNnq7da39jwNBiOQ56OrIykVn7ebzz4O/view?usp=sharing"
+                title="opens in new tab" target="_blank"> resume</a>
+            </li>
+          </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="search for something" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" aria-pressed="true" type="submit">search</button>
+        </form>
+        </div>
+      </nav>
+    </div>
+
+  <div class="page-title"><h2>Atlantis Transportation Hub Display</h2>
+      <p>Interaction Design Studio I --- Oct. to Nov. 2018 (3 weeks)</p>
+  </div>
+  <div class="descrip-text mx-auto" id="descrip-text"><b>Context </b><br>
+    Design a screen display for a transportation hub based on the given dataset about the three modes
+    of transportation available in the beautiful and tourism-driven San Juan Islands based on the needs
+    of three representative user personas.
+  </div>
+
+  <div class="container">
+
+    <div class="left-div left-text">
+      <img src="images/1atlantis/islands.jpg" class="test-image img-fluid" alt="Ene, from the popular anime,
+      'Mekaku City Actors'.">
+      <caption>The San Juan Islands, located off the coast of Washington, are known for their beautiful
+        islands and tourism-driven economy.</caption>
+    </div>
+    <div class="right-div right-text">
+      <b>Key Concepts:</b>
+      <ul class="key-items">
+        <li>User personas</li>
+        <li>Wireframing</li>
+        <li>Control Design</li>
+      </ul>
+      <b>Tools Used:</b>
+      <ul class="key-items">
+        <li>Adobe Illustrator and InDesign</li>
+        <li>Given <a href="https://drive.google.com/open?id=1gUeGH449x6fDhicd12q-ZeSTU9-S9Vl_rLWCWEEvPuw" target="_blank">
+          transportation dataset</a> and <a href="https://drive.google.com/file/d/1nVbpuK8Ao7syVhi4_hi4RtCOG0ms7qS5/view?usp=sharing"
+        target="_blank">user personas</a></li>
+        <li>FramerX</li>
+        <li>Keynote</li>
+      </ul>
+      <b>Group Members:</b>
+      <ul class="key-items">
+        <li>Henry Zhang</li>
+        <li>Clarice Ollen</li>
+      </ul><br>
+    </div>
+
+    <div class="bg-text mx-auto"><p><b>User Personas</b><br>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/1atlantis/elizabeth.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Director Elizabeth</h5>
+          <p class="card-text"><br>Elizabeth Duarte is the <b>Transportation Director </b>of the Municipality of the Greater San Juan Islands,
+a division of the local government that operates Atlantis Hub. Elizabeth aims to educate the public about her new program, <b>the PTF Pass</b>,
+that combines flight, ferry, and train passes for <b>greater flexibility</b>. </p>
+        </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/1atlantis/george.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Spontaneous Tour Guide George</h5>
+          <p class="card-text"><br>A <b>long-time resident</b> of the San Juan Islands, George Shimko is an avid outdoorsman who owns
+modest fishing cabins on nearby Orcas Island and Stuart Island. He <b>regularly invites</b> his children
+and grandchildren to his house on San Juan Island and intends to <b>give them PTF passes</b> so that
+they can travel all around the islands.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/1atlantis/patrick.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Logical Planner Patrick</h5>
+          <p class="card-text"><br>Patrick Mulvaney, is an environmental engineer for a EnCo, a large energy company in the region.
+As an engineer for EnCo who is stationed in Seattle, Patrick spends an <b>average of three days</b> per
+week visiting drilling and wind power sites throughout the San Juan Islands. Because weather
+often influences his travel, Patrick welcomes the new <b>PTF Pass program</b> to accommodate changing
+weather conditions.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- A separate div for the background since it is centered -->
+    <div class="bg-text mx-auto"><p><b>Background</b><br>
+      "What's good this season?" As someone who has been in the anime
+    community for as long as I can remember, it's hard sometimes to find some really good ones out
+    there. With so many titles to choose from, it can be very overwhelming. That's why I decided to
+    create something that I think would help others get some good recommendations!</p>
+<br>
+    </div>
+
+
+    <div class="left-div2 left-text2">
+      <b>Character Concept</b><br>
+        To bring the bot to life, I created a <b>personality</b> for it based on a character from the popular anime,
+        <i>Mekakucity Actors</i>, Ene. Ene is a girl who became trapped in the digital world and lives
+        in a Google Home-esque device. She's informative but fun and energetic. <br><br>
+        Knowing people who love to watch anime, I think her spunky character would be the <b>perfect fit</b>
+        for a bot designed to make <b>users feel comfortable</b> and casual as if they were talking to a friend.<br><br>
+        The name "Annie Mae" is also a play on words of "anime"!<br>
+    </div>
+    <div class="right-div2">
+      <img src="images/1atlantis/ene2.jpg" class="float-right rounded-circle map-image img-fluid">
+    </div>
+
+    <div class="bg-text mx-auto"><b>Features</b><br>
+      To try to make a <b>more holistic experience</b>, the Annie Mae bot can respond to a handful of scenarios.<br><br>
+      Her main goal is to offer anime recommendations but she can also address new users and <b>respond to user's reactions</b>
+      to her recommendations.
+    </div>
+    <div class="left-div2 left-text2">
+      <b>User Testing Feedback</b><br>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Scroll to top feature -->
+  <div id="stop" class="scrollTop">
+   <span><a href="#"><img class="float-right" src="images/1atlantis/scroll.png"></a></span>
+ </div>
+
+ <!-- <a id="back2Top" title="Back to top" href="#">&#10148;</a>-->
+
+
+
+
+
+
+</html>

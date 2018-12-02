@@ -1,0 +1,173 @@
+.page-title {
+  text-align: center;
+  padding-top: 30px;
+  height: auto;
+}
+
+.descrip-text {
+  text-align: left;
+  max-width: 950px;
+  padding: 3px 3px 15px 100px;
+  text-indent:-4.75em;
+}
+
+.key-items {
+  font-size: 14px;
+  text-align: left;
+}
+
+.container
+{
+  text-align: center;
+  padding: 15px;
+}
+
+.left-div {
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  margin: 15px;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.left-div2 {
+  display: inline-block;
+  max-width: 400px;
+  padding-bottom: 10px;
+}
+
+.left-text2 {
+  display: inline-block;
+  text-align: left;
+  margin: 15px;
+  vertical-align: top;
+  font-size: 15px;
+  text-indent:-4.75em;
+}
+
+.right-div {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  margin: 15px;
+}
+
+.right-div2 {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding-left: 60px;
+  align-self: left;
+}
+
+.right-div2 img {
+  background-color: #B2DBFF;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  margin: 5px;
+
+}
+
+.bg-text {
+  max-width: 950px;
+  text-align: left;
+  text-indent:-4.75em;
+  padding: 3px 3px 15px 70px;
+}
+
+.center-div {
+  margin-top: 40px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  color:
+}
+
+.left-div img {
+  background-color: #B2DBFF;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  margin-left: -10px;
+}
+
+.key-items a {
+  color: #1993FF;
+}
+
+.center-photo {
+  text-align: left;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+
+  .card-text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+
+  .card-text {
+    max-width: 100%;
+  }
+}
+
+
+.item {
+  font-size: 13px;
+}
+
+.card {
+  padding: 5px;
+  margin: 10px;
+}
+
+
+.card-text {
+  font-size: 12px;
+  width: 400px;
+}
+
+.card-img-top {
+  width: 100%;
+  border: 1px solid #000000;
+}
+
+.card-group {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  width: 800px;
+}
+
+.card-title {
+  padding-left: 100px;
+  margin-bottom: 0px;
+}
+
+/* CSS scrolling code adapted from https://codepen.io/karencho/pen/KIgur */
+.scrollTop {
+  position: fixed;
+  right: 5%;
+  bottom: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  background-color: none;
+}
