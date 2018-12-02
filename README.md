@@ -1,1 +1,212 @@
-# PUI-Final-Project
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+    <!-- p5.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <!-- scrollMagic CDN -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- My own files -->
+    <script src="homeSelection.js"></script>
+    <script src="scrollTop.js"></script>
+    <script src="mainSketch2.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="homePage.css">
+
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <header><div id="moon-mouse"></div></header>
+    <div class="animated slideInDown"><h1 id="my-name">Connie Chau</h1></div>
+    <div id="navbar-Animate">
+      <nav class="animated fadeIn navbar navbar-expand-lg navbar-light" style="background-color:#A090C4;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="homePage.html">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutPage.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/file/d/1GNnq7da39jwNBiOQ56OrIykVn7ebzz4O/view?usp=sharing"
+                title="opens in new tab" target="_blank"> resume</a>
+            </li>
+          </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="search for something" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" aria-pressed="true" type="submit">search</button>
+        </form>
+        </div>
+      </nav>
+    </div>
+
+  <div class="container">
+  <div class="container gallery-container">
+      <h1 class="text-center">Welcome to my portfolio.</h1>
+      <br>
+
+    <div class="selection-items col-md-12 d-flex justify-content-center mb-5">
+        <button type="button" class="btn btn-outline-dark my-2 my-sm-0 filter" aria-pressed="true" data-rel="all">All</button>
+        <!--<button type="button" class="btn btn-outline-dark my-2 my-sm-0" aria-pressed="true" data-rel="summary">Summary</button>-->
+        <button type="button" class="btn btn-outline-dark my-2 my-sm-0 filter" aria-pressed="true" data-rel="1">Internship</button>
+        <button type="button" class="btn btn-outline-dark my-2 my-sm-0 filter" aria-pressed="true" data-rel="2">Coursework</button>
+        <button type="button" class="btn btn-outline-dark my-2 my-sm-0 filter" aria-pressed="true" data-rel="3">Personal</button>
+
+    </div>
+
+      <div class="gallery-images animated" id="gallery-images">
+          <div class="row mb-3">
+              <div class="col-md-4">
+                  <div class="card pics animation all 2">
+                      <a class="grid-container" href="responsive.html">
+                      <img src="images/0hazard/responsive-home.jpg" alt="me" class="card-img-top">
+                      Hazardous Waste | Nov. 2018 - present
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card pics animation all 2">
+                      <a class="grid-container" href="atlantis.html">
+                      <img src="images/1atlantis/transportation hub-home.jpg" alt="hub" class="card-img-top">
+                      Atlantis Transportation Hub | Oct. - Nov. 2018
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card pics animation all 2">
+                      <a class="grid-container" href="chatbot.html">
+                      <img src="images/2chatbot/chatbot-home.png" alt="chatbot" class="card-img-top">
+                      Twitter Chatbot | Nov. 2018
+                      </a>
+                  </div>
+              </div>
+          </div>
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="card pics animation all 1">
+                      <a class="grid-container" href="motor.html">
+                      <img src="images/3mtg/motor-home.jpg" alt="cars" class="card-img-top">
+                      MTG UX Internship | Jun. - Aug. 2018
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card pics animation all 2">
+                      <a class="grid-container" href="body.html">
+                      <img src="images/4body/movement.jpg" alt="piano" class="card-img-top">
+                        Body Music Generator | April - May 2018
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card pics animation all 3">
+                      <a class="grid-container" href="baguette.html">
+                      <img src="images/5bag/baguette-home.jpg" alt="baguette" class="card-img-top">
+                        Baguette @ TartanHacks | Feb. 2018
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+ <!-- Footer -->
+ <footer class="page-footer font-small pt-4" style="background-color:#A195BB;">
+     <!-- Footer Links -->
+     <div class="container-fluid text-center text-md-left">
+       <!-- Grid row -->
+       <div class="row">
+         <!-- Grid column -->
+         <div class="col-md-6 mt-md-0 mt-3">
+           <!-- Content -->
+           <h5 class="text-uppercase">Footer Content</h5>
+           <p>Here you can use rows and columns here to organize your footer content.</p>
+         </div>
+         <!-- Grid column -->
+         <hr class="clearfix w-100 d-md-none pb-3">
+         <!-- Grid column -->
+         <div class="col-md-3 mb-md-0 mb-3">
+             <!-- Links -->
+             <h5 class="text-uppercase">Links</h5>
+
+             <ul class="list-unstyled">
+               <li>
+                 <a href="#!">Link 1</a>
+               </li>
+               <li>
+                 <a href="#!">Link 2</a>
+               </li>
+             </ul>
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class="col-md-3 mb-md-0 mb-3">
+             <!-- Links -->
+             <h5 class="text-uppercase">Links</h5>
+
+             <ul class="list-unstyled">
+               <li>
+                 <a href="#!">Link 1</a>
+               </li>
+               <li>
+                 <a href="#!">Link 2</a>
+               </li>
+             </ul>
+           </div>
+           <!-- Grid column -->
+       </div>
+       <!-- Grid row -->
+     </div>
+     <!-- Footer Links -->
+     <!-- Copyright -->
+     <div class="footer-copyright text-center py-3">© 2018 Copyright: Connie Chau
+     </div>
+     <!-- Copyright -->
+
+   </footer>
+   <!-- Footer -->
+
+   <!-- Scroll to top feature -->
+   <div id="stop" class="scrollTop">
+    <span><a href=""><img class="float-right" src="images/scroll.png"></a></span>
+  </div>
+
+
+  </body>
+
+
+</html>
